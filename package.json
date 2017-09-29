@@ -1,0 +1,21 @@
+{
+  "name": "mario",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yanbin.ge",
+  "license": "ISC",
+  "dependencies": {
+    "config-yml": "^0.8.0",
+    "gmail-parser": "^1.1.1",
+    "google-auth-library": "^0.11.0",
+    "googleapis": "^22.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1"
+  }
+}
