@@ -7,4 +7,5 @@ process.on('unhandledRejection', (reason, p) => {
 new Mario()
   .pipe('gmail', require('./lib/rules/readWufooGmailRule'))
   .pipe('drive', require('./lib/rules/createGoogleDocRule'))
+  .pipe('trello', require('./lib/rules/createTrelloCardRule'))
   .run()
